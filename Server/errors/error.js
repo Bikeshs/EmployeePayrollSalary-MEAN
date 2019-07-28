@@ -2,7 +2,7 @@ const { createError } = require('apollo-errors');
 
 const unKnownError = createError('unKnownError',{message: 'An unknown error has occured.'});
 const inValidUserID = createError('inValidUserID',{message: 'UserID does not exists.'});
-const inValidPassword = createError('inValidPassword',{message: 'UserID and password do not match. Please contact your system admin. or send an email to info@elishconsulting.com'});
+const inValidPassword = createError('inValidPassword',{message: 'UserID and password do not match. Please contact your system admin. or send an email to Bikesh1988@gmail.com'});
 const unAuthorizedError = createError('unAuthorizedError',{message: 'Your role is not permitted to perform this operatrion. Please contact your system Admin.'});
 const noAdminError = createError('noAdminError',{message: 'You are not a system Admin.'});
 const AuthorizationError = createError('AuthorizationError', { message: 'You are not authorized.'});

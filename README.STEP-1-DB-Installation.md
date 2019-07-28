@@ -4,7 +4,7 @@ By dafault, Elish HCM Cloud Community Edition is bundled with MongoDB.<br>
 <i>please note that MongoDB is my preferred choice, but Developer may choose any database like MYSQL, MS SQL Server or CouchDB, Google Firebase/Firestore or any REST API</i><br />
 Other database supported on v1.1.8 release are
 MYSQL, MS SQL Server, PostGreSQL, CouchDB, Google Firebase/FireStore, MongoDB<br><br>
-<u><i>If you wish to migrate/upgrade your old desktop or client/server software to enterprise desktop/mobile app, please write to info@elishconsulting.com for Enterprise version upgrade.</i></u><br><br>
+<u><i>If you wish to migrate/upgrade your old desktop or client/server software to enterprise desktop/mobile app, please write to bikesh1988@gmail.com for Enterprise version upgrade.</i></u><br><br>
 We will cover MongoDB, CouchDB and MYSQL Server Installation in this document.<br>
 <u><h2>MongoDB Installation :- </h2></u>
 Download a copy of MongoDB based on your OS.<br>
@@ -40,13 +40,13 @@ $ use elisherp  // this is the database we will use in our app<br />
 $ show users<br />
 // create user to connect to elishERP database<br />
 $ db.createUser({<br /> 
-    user: "amit",<br />
+    user: "Bikesh",<br />
     pwd: "password",<br />
     roles: [{ role: "readWrite", db: "elishERP" },<br />
        { role: "dbAdmin", db: "elishERP" }]<br />
   })<br /><br />
 $ db.users.insertOne(<br />
-{ name: "Amit Shukla", email: "amit@elishconsulting.com", password: "amit@elishconsulting.com", roles: ["admin","supervisor"] }<br />
+{ name: "Bikesh Srivastava", email: "bikesh1988@gmail.com", password: "123456", roles: ["admin","supervisor"] }<br />
 );<br /><br />
 $ show users<br />
 <br />
@@ -75,7 +75,7 @@ CREATE TABLE `users` (<br />
 -- Dumping data for table `users`<br />
 --<br />
 <br />
-INSERT INTO `users` VALUES(1, 'Amit Shukla', 'amit@elishconsulting.com', 'amit@elishconsulting.com', 'admin,supervisor', '2018-07-26<br /> 01:33:32', '2018-07-26 01:33:32');<br />
+INSERT INTO `users` VALUES(1, 'Bikesh Srivastava', 'Bikesh1988@gmail.com', '123456', 'admin,supervisor', '2018-07-26<br /> 01:33:32', '2018-07-26 01:33:32');<br />
 <br /><br />
 <u><h2>MariaDB Installation :-</h2></u>
 https://www.apachefriends.org/index.html<br />

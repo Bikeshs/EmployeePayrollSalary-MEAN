@@ -30,9 +30,9 @@ const User = sequelize.define('user', {
 User.sync({force: false}).then(() => {
   // Table created
   return User.create({
-    name: 'Amit Shukla',
-    email: 'amit@elishconsulting.com',
-    password: 'amit@elishconsulting.com',
+    name: 'Bikesh Srivastava',
+    email: 'bikesh',
+    password: '123456',
     roles: "admin"
   });
 });
