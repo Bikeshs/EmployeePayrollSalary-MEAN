@@ -1,5 +1,6 @@
 {
-  "name": "elish-master",
+  "name": "eps",
+  "author": "Bikesh Srivastava",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
